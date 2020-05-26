@@ -1,0 +1,226 @@
+*{
+	max-width:100%;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+@font-face{
+    font-family: mirage;
+    src: url(../fonts/mirage.otf)
+}
+@font-face{
+    font-family: chapaza;
+    src: url(../fonts/chapaza.otf)
+}
+
+@media only screen and (min-width: 801px){
+    #faixa{
+        width: 100%;
+        background-color: rgb(187, 214, 171);
+        height: 10vw;
+        position: absolute;
+    }
+    #titulo{
+        color: rgb(112, 167, 112);
+        float: right;
+        margin-top: 14vw;
+        font-size: 2.5vw;
+        margin-right: 18vw;
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #texto{
+        float: right;
+        position: relative;
+        width: 36vw;
+        margin-top: 2vw;
+        margin-right: 18vw;
+        font-size: 1.8vw;
+        text-align: justify;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    #tabela{
+        float: left;
+        position: relative;
+        width: 25vw;
+        margin-top: 2vw;
+        margin-left: 8vw;
+        background-color: rgb(112, 167, 112);
+        height: 20vw;
+        border: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_nome{
+        padding-top: 1.5vw;
+        position: relative;
+        float: left;
+        width: 70%;
+        left: 15%;
+    }
+    #barra_email{
+        font-size: 1.5vw;
+        padding: 0.5vw;
+        border-color: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_senha_externa{
+        padding-top: 1.5vw;
+        position: relative;
+        float: left;
+        width: 70%;
+        left: 15%;
+    }
+    #barra_senha{
+        font-size: 1.5vw;
+        padding: 0.5vw;
+        border-color: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_enviar_externo{
+        padding: 1vw;
+        float: right;
+        width: 65%;
+        right: 40%;
+        margin-top: 1vw;
+    }
+    #barra_enviar{
+        font-size: 1.8vw;
+        padding: 0.4vw;      
+        border-color: black;
+        border-radius: 6px;
+    }
+    #titulo_formulario{
+        position: relative;
+        width: 50%;
+        float: left;
+        left: 25%;
+        text-align: center;
+        font-size: 2vw;
+        padding-top: 1.5vw;
+    }
+    #imagem_principal{
+        float: right;
+        position: relative;
+        margin-top: 4vw;
+        margin-right: 15vw;
+        border-radius: 8px;
+        border: solid;
+        border-color:rgb(112, 167, 112) ;
+        background-color:rgb(112, 167, 112) ;
+        width: 40vw;
+        
+    }
+
+}
+@media only screen and (max-width: 800px){
+    #faixa{
+        width: 100%;
+        background-color: rgb(187, 214, 171);
+        height: 10vw;
+        position: absolute;
+    }
+    #titulo{
+        width: 80%;
+        margin-right: 10%;
+        text-align: center;
+        color: rgb(112, 167, 112);
+        float: right;
+        margin-top: 14vw;
+        font-size: 5vw;
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #texto{
+        float: right;
+        position: relative;
+        width: 60vw;
+        margin-top: 2vw;
+        margin-right: 20vw;
+        font-size: 3vw;
+        text-align: justify;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    #tabela{
+        float: right;
+        position: relative;
+        width: 40vw;
+        margin-top: 4vw;
+        margin-right: 30vw;
+        background-color: rgb(112, 167, 112);
+        height: 30vw;
+        border: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_nome{
+        padding-top: 1.5vw;
+        position: relative;
+        float: left;
+        width: 70%;
+        left: 15%;
+    }
+    #barra_email{
+        font-size: 3vw;
+        padding: 0.5vw;
+        border-color: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_senha_externa{
+        padding-top: 1.5vw;
+        position: relative;
+        float: left;
+        width: 70%;
+        left: 15%;
+    }
+    #barra_senha{
+        font-size: 3vw;
+        padding: 0.5vw;
+        border-color: rgb(187, 214, 171);
+        border-width: 1px;
+        border-radius: 10px;
+        border-style: solid;
+    }
+    #barra_enviar_externo{
+        padding: 1vw;
+        float: right;
+        width: 65%;
+        right: 40%;
+        margin-top: 1vw;
+    }
+    #barra_enviar{
+        font-size: 3vw;
+        padding: 0.4vw;      
+        border-color: black;
+        border-radius: 6px;
+    }
+    #titulo_formulario{
+        position: relative;
+        width: 50%;
+        float: left;
+        left: 25%;
+        text-align: center;
+        font-size: 4vw;
+        padding-top: 1.5vw;
+    }
+    #imagem_principal{
+        display: none;
+    }
+}
